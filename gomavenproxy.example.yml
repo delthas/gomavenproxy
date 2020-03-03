@@ -1,0 +1,11 @@
+# http server listen port
+port: 14890
+ftp:
+  # IP/hostname of the FTP server
+  host: "127.0.0.1"
+  # port of the FTP server
+  port: 21
+  # FTP server connection timeout, in seconds
+  timeout: 10
+  # path to the root of the Maven repository on the FTP server (should end with `/`)
+  maven_path: "/"
